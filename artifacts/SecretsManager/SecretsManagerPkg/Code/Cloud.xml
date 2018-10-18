@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Name="fabric:/SecretsManager" xmlns="http://schemas.microsoft.com/2011/01/fabric" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Parameters>
+    <Parameter Name="LoggingProvider" Value="MDS" />
+    <Parameter Name="KeyVaultEnabled" Value="" />
+    <Parameter Name="KeyVaultName" Value="" />
+    <Parameter Name="KeyVaultADApplicationId" Value="" />
+    <Parameter Name="KeyVaultThumbprint" Value="" />
+  </Parameters>
+</Application>

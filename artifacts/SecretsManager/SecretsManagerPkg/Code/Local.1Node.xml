@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/SecretsManager" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="LoggingProvider" Value="MDS" />
+    <Parameter Name="KeyVaultEnabled" Value="True" />
+    <Parameter Name="KeyVaultName" Value="integration" />
+    <Parameter Name="KeyVaultADApplicationId" Value="f448da59-a2ba-4dcf-ab6e-c1b8b8ab31cf" />
+    <Parameter Name="KeyVaultThumbprint" Value="BF159D550098A95B5D6A0B3109517F5559EF4A16" />
+    <Parameter Name="SslThumbprint" Value="" />
+    <Parameter Name="LoggingClusterName" Value="localhost" />
+    <Parameter Name="LoggingMdmAccountName" Value="AvalancheDev" />
+    <Parameter Name="AuthenticationEnabled" Value="False" />
+  </Parameters>
+</Application>

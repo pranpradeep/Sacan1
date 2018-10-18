@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/SecretsManager" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="LoggingProvider" Value="MDS" />
+    <Parameter Name="KeyVaultEnabled" Value="True" />
+    <Parameter Name="KeyVaultName" Value="shantnug-003" />
+    <Parameter Name="KeyVaultADApplicationId" Value="f448da59-a2ba-4dcf-ab6e-c1b8b8ab31cf" />
+    <Parameter Name="KeyVaultThumbprint" Value="BF159D550098A95B5D6A0B3109517F5559EF4A16" />
+    <Parameter Name="SslThumbprint" Value="BE50A091B1EA83A6AB5963AE6785F3B5369FBFF1" />
+    <Parameter Name="LoggingClusterName" Value="localhost" />
+    <Parameter Name="LoggingMdmAccountName" Value="AvalancheDev" />
+    <Parameter Name="AuthenticationEnabled" Value="True" />
+    <Parameter Name="JwtAuthority" Value="https://login.windows.net/72f988bf-86f1-41af-91ab-2d7cd011db47" />
+    <Parameter Name="JwtAudience" Value="https://management.core.windows.net/" />
+  </Parameters>
+</Application>
